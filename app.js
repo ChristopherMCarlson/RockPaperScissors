@@ -1,3 +1,7 @@
+// Rock = 1
+// Paper = 2 
+// Scissors = 3
+
 function play(playerChoice){
     let compChoice = Math.floor((Math.random() * 3) + 1);
     if (playerChoice == 1){
